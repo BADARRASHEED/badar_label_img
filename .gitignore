@@ -1,0 +1,74 @@
+# Python / Conda environments
+.venv/
+.labelimg-env/
+venv/
+env/
+
+# Generated GUI resources
+resources.py
+
+# Python package files
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+.*.swp
+.ycm_extra_conf.py
+.subvimrc
+.unison*
+.attach*
+
+# Code navigation files
+tags
+cscope*
+
+# Local datasets and annotations
+/dataset/
+/datasets/
+/images/
+/labels/
+
+# Local data files
+*.pkl
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+tmp.*
+
+# macOS system files
+.DS_Store
+.DS_Store?
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows system files
+ehthumbs.db
+Thumbs.db
+Desktop.ini
